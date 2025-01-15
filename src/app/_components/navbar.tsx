@@ -37,8 +37,8 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
   const isActive = (path: Url) => pathname === path;
 
   return (
-    // <nav className="">
-     <ul className="p-5 text-xl flex place-content-center items-center gap-4">
+    <nav className="">
+     <ul className="p-5 text-xl flex place-content-center items-center gap-4 ">
         <li>
           <Link
             href="/"
@@ -60,7 +60,7 @@ const Navbar: React.FunctionComponent<INavbarProps> = () => {
           </li>
         ))}
       </ul>
-    // </nav>
+    </nav>
   );
 };
 
